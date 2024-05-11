@@ -1,0 +1,45 @@
+.sidebar-icon{
+    height: 100vh;
+    overflow: scroll;
+}
+::-webkit-scrollbar{
+    background-color: #b9cad3;
+    color: #fff;
+}
+
+.sidebar-icon div:hover{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.messagebox img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+
+.messagebox textarea{
+    border: none;
+    resize: none;
+}
+
+.messagebox textarea:focus{
+    outline: none;
+}
+
+textarea::placeholder{
+    color: gray;
+    font-family: cursive;
+}
+
+.postimg{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+}
+

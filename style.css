@@ -1,0 +1,5 @@
+.mycolor{
+            background: linear-gradient(to top, red, blue);
+            color: transparent;
+            background-clip: text;
+        }
